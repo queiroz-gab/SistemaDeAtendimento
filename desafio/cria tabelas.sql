@@ -16,8 +16,7 @@ CREATE TABLE `pessoas` (
 );
 
 CREATE TABLE `protocolo` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `num_prot` int(11) NOT NULL,
+  `num_prot` int(11) NOT NULL AUTO_INCREMENT,
   `desc` varchar(60) DEFAULT NULL,
   `data_atual` date DEFAULT NULL,
   `prazo` int(11) DEFAULT NULL,
